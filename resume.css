@@ -11,3 +11,20 @@ body{
   padding-right: 0px;
   padding-left: 0px;
 
+}
+.photo{
+  float:left;
+  width: 40%;
+  margin-top: auto;
+}
+
+.personaldetail{
+  float: left;
+  width: 40%
+}
+.personaldetail h3{
+  color: #0000CD;
+}
+hr{
+  width: 90%;
+}

@@ -1,1 +1,13 @@
+body{
+  font-family: sans-serif;
+}
+.topleftpane{
+  float: right;
+  width: 60%;
+}
+.connect{
+  float: right;
+  width: 60%;
+  padding-right: 0px;
+  padding-left: 0px;
 

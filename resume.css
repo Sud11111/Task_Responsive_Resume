@@ -1,3 +1,7 @@
+*{
+  padding:0;
+  margin:0;
+}
 body{
   font-family: sans-serif;
 }
@@ -8,7 +12,7 @@ body{
 }
 .connect{
   float: right;
-  width: 60%;
+  width: 50%;
 
 }
 li{
@@ -48,4 +52,7 @@ hr{
 }
 .checked{
   color: DodgerBlue;
+}
+.columnhead{
+  border-left: 30px DodgerBlue solid;
 }

@@ -13,25 +13,47 @@ body{
 .connect{
   float: right;
   width: 50%;
-
+  margin-right: 5%;
 }
-li{
-
+.connect li{
+  list-style: none;
+  text-align: right;
+  padding-top: 2%
+}
+.connect ul{
+  padding-top: 5%;
 }
 img.rounded {
   object-fit: cover;
   border-radius: 50%;
   border-color: DodgerBlue;
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   margin-left: auto;
   margin-right: auto;
-  position: absolute;
+  position:absolute;
 }
+.photo{
+  display: table;
+ margin: 0 auto;
+}
+.personaldetail{
+  margin-left: 5%;
+}
+.name{
+  border-left: 10% black solid ;
+  border-color: black;
 
+}
+li{
+  padding-top: 2%;
+}
 .personaldetail{
   float: left;
   width: 30%
+}
+.personaldetail h1{
+  border-left: 10px black solid;
 }
 .personaldetail h3{
   color: DodgerBlue;
@@ -44,15 +66,38 @@ hr{
 }
 .leftpane{
   float: left;
-  width: 45%;
+  width: 48%;
 }
 .rightpane{
   float: right;
-  width: 45%;
+  width: 48%;
+  padding-left: 2%;
 }
 .checked{
   color: DodgerBlue;
 }
-.columnhead{
+.leftpane .columnhead{
   border-left: 30px DodgerBlue solid;
+  margin-top: 5%;
+  padding-left: 1%
+
+}
+.rightpane .columnhead{
+  margin-top: 5%;
+}
+.leftpane .columnmatter li{
+  list-style: disc; color: DodgerBlue;
+
+}
+.leftpane .columnmatter{
+  margin-left: 7%
+}
+.rightpane li{
+  list-style: none;
+}
+.leftpane{
+  padding-left: 0%;
+}
+.education.columnmatter p{
+  line-height: 2;
 }

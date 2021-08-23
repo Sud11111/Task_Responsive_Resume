@@ -3,26 +3,31 @@ body{
 }
 .topleftpane{
   float: right;
-  width: 60%;
+  width: 55%;
+
 }
 .connect{
   float: right;
   width: 60%;
-  padding-right: 0px;
-  padding-left: 0px;
 
 }
+li{
 
+}
 img.rounded {
   object-fit: cover;
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
+  border-color: DodgerBlue;
+  height: 200px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
 }
 
 .personaldetail{
   float: left;
-  width: 40%
+  width: 30%
 }
 .personaldetail h3{
   color: DodgerBlue;
@@ -32,4 +37,15 @@ hr{
   background-color: DodgerBlue;
   height: 4px;
   border: 0;
+}
+.leftpane{
+  float: left;
+  width: 45%;
+}
+.rightpane{
+  float: right;
+  width: 45%;
+}
+.checked{
+  color: DodgerBlue;
 }

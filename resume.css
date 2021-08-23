@@ -29,6 +29,9 @@ img.rounded {
   margin-right: auto;
   position:absolute;
 }
+.material-icons{
+  color: grey;
+}
 .photo{
   display: table;
  margin: 0 auto;

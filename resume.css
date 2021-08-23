@@ -5,11 +5,7 @@
 body{
   font-family: sans-serif;
 }
-.topleftpane{
-  float: right;
-  width: 55%;
 
-}
 .connect{
   float: right;
   width: 50%;

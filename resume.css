@@ -102,5 +102,5 @@ hr{
 }
 @media screen and (max-width: 800px) {
   .leftpane, .photo, .rightpane, .personaldetail, .connect {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    width: 100%; 
   }
